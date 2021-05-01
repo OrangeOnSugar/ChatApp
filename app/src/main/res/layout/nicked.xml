@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="170dp"
+    android:background="#212F3C">
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="35dp"
+        android:background="#1B2631" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Никнейм"
+        android:textSize="35dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center"/>
+    <EditText
+        android:id="@+id/niker"
+        android:layout_width="200dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_marginLeft="60dp"
+        android:text=""
+        android:textColorHint="@android:color/darker_gray"
+        android:hint="Юзернейм"
+        android:textColor="@android:color/white"
+        android:background="#2E4053"/>
+    <Button
+        android:id="@+id/setnick"
+        android:layout_width="45dp"
+        android:layout_height="41dp"
+        android:text="ОК"
+        android:background="#273746"
+        android:textSize="10dp"
+        android:layout_marginTop="-41dp"
+        android:layout_marginLeft="262dp"/>
+</LinearLayout>

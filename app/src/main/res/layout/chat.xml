@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2E4053"
+    android:isScrollContainer="false"
+    android:id="@+id/scrolles">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#283747"
+        android:text="Чат"
+        android:textColor="#FBFCFC"
+        android:gravity="center"
+        android:textSize="33dp" />
+    <Button
+    android:layout_width="42dp"
+    android:layout_height="41dp"
+    android:layout_marginLeft="348dp"
+    android:layout_marginTop="-42dp"
+    android:background="#283747"
+    android:text="⋮"
+        android:id="@+id/nickmen"
+    android:textColor="#FBFCFC"
+    android:textSize="25dp" />
+
+
+    <ListView
+        android:id="@+id/chat"
+        android:layout_width="wrap_content"
+        android:layout_height="656dp"
+        android:background="#212F3C"
+        android:dividerHeight="13dp"
+        android:divider="@android:color/transparent"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="0dp"
+        android:background="#283747"/>
+
+    <EditText
+        android:id="@+id/texts"
+        android:layout_width="320dp"
+        android:layout_height="53dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="-57dp"
+        android:background="#283747"
+        android:textSize="20dp"
+        android:hint="Сообщение"
+        android:textColor="#FBFCFC"
+        android:textColorHint="#626567"/>
+    <Button
+        android:layout_width="45dp"
+        android:text="➤"
+        android:id="@+id/send"
+        android:textColor="#FBFCFC"
+        android:textSize="24dp"
+        android:layout_height="45dp"
+        android:background="#2E4053"
+        android:layout_marginLeft="340dp"
+        android:layout_marginTop="-51dp"/>
+</LinearLayout>
+</ScrollView>
